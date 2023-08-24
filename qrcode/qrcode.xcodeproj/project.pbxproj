@@ -16,6 +16,7 @@
 		8CDCCC4B2A97ED4000D5C08C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC4A2A97ED4000D5C08C /* CameraView.swift */; };
 		8CDCCC4E2A97F0A900D5C08C /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC4D2A97F0A900D5C08C /* Permission.swift */; };
 		8CDCCC522A97F65E00D5C08C /* QRScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC512A97F65E00D5C08C /* QRScannerDelegate.swift */; };
+		8CDCCC552A98021900D5C08C /* Extensions+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC542A98021900D5C08C /* Extensions+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8CDCCC4A2A97ED4000D5C08C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		8CDCCC4D2A97F0A900D5C08C /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
 		8CDCCC512A97F65E00D5C08C /* QRScannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerDelegate.swift; sourceTree = "<group>"; };
+		8CDCCC542A98021900D5C08C /* Extensions+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				8C8BECCE2A97CC3B008E6BB7 /* ContentView.swift */,
 				8CDCCC4C2A97F08300D5C08C /* Model */,
 				8CDCCC472A97E6A900D5C08C /* Views */,
+				8CDCCC532A9801FC00D5C08C /* Helpers */,
 				8C8BECE62A97D681008E6BB7 /* Info.plist */,
 				8C8BECE92A97D8BC008E6BB7 /* MovieContainer.xcdatamodeld */,
 				8C8BECD02A97CC3C008E6BB7 /* Assets.xcassets */,
@@ -100,6 +103,14 @@
 				8CDCCC512A97F65E00D5C08C /* QRScannerDelegate.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8CDCCC532A9801FC00D5C08C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8CDCCC542A98021900D5C08C /* Extensions+View.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				8CDCCC4B2A97ED4000D5C08C /* CameraView.swift in Sources */,
 				8CDCCC522A97F65E00D5C08C /* QRScannerDelegate.swift in Sources */,
 				8C8BECEB2A97D8BC008E6BB7 /* MovieContainer.xcdatamodeld in Sources */,
+				8CDCCC552A98021900D5C08C /* Extensions+View.swift in Sources */,
 				8CDCCC492A97E6CC00D5C08C /* ScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
