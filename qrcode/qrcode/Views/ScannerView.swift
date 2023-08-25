@@ -27,8 +27,12 @@ struct ScannerView: View {
     @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
     var body: some View {
         VStack(spacing: 8) {
-            Text("Scan QR Code")
-                .font(.largeTitle)
+            // Button to 2nd View
+            HStack{
+                NavigationLink(destination: MovieInfoView()) { Text("View Movies")}
+                    .buttonStyle(.borderedProminent)
+                Spacer()
+            }
 
             // Scanner
             GeometryReader {
@@ -43,6 +47,7 @@ struct ScannerView: View {
                 .cornerRadius(10)
             }
         }
+        .navigationTitle("Scan QR Code")
         .padding(15)
         // Check Camera Permission, when the View is Visible
         .onAppear(perform: checkCameraPermission)
