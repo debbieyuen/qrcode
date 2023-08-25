@@ -9,13 +9,14 @@ import SwiftUI
 
 struct MovieInfoView: View {
     @StateObject var jsonModel = JSONViewModel()
+    @Environment(\.managedObjectContext) var context
     var body: some View {
         VStack {
             List() {
                 if jsonModel.movies.isEmpty {
                     ProgressView()
                         .onAppear(perform: {
-                            jsonModel.fetchData()
+                            jsonModel.fetchData(context: context)
                         })
                 } else {
                     List(jsonModel.movies, id: \.self) { movie in

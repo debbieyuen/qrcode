@@ -2,8 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="MovieEntity" representedClassName="MovieEntity" syncable="YES" codeGenerationType="class">
         <attribute name="city" optional="YES" attributeType="String"/>
-        <attribute name="inception" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="playTime" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="playTime" optional="YES" attributeType="String"/>
     </entity>
 </model>

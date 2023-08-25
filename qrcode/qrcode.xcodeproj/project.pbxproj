@@ -21,6 +21,7 @@
 		8CDCCC5E2A9815FC00D5C08C /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC5D2A9815FC00D5C08C /* MovieModel.swift */; };
 		8CDCCC622A981EEC00D5C08C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC612A981EEC00D5C08C /* CardView.swift */; };
 		8CDCCC642A98204600D5C08C /* JSONViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC632A98204600D5C08C /* JSONViewModel.swift */; };
+		8CDCCC862A98327100D5C08C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCCC852A98327100D5C08C /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		8CDCCC5D2A9815FC00D5C08C /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		8CDCCC612A981EEC00D5C08C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8CDCCC632A98204600D5C08C /* JSONViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewModel.swift; sourceTree = "<group>"; };
+		8CDCCC852A98327100D5C08C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +75,12 @@
 		8C8BECCB2A97CC3B008E6BB7 /* qrcode */ = {
 			isa = PBXGroup;
 			children = (
-				8CDCCC582A98158600D5C08C /* ViewModel */,
 				8C8BECCC2A97CC3B008E6BB7 /* qrcodeApp.swift */,
-				8C8BECCE2A97CC3B008E6BB7 /* ContentView.swift */,
+				8CDCCC852A98327100D5C08C /* Persistence.swift */,
+				8CDCCC4D2A97F0A900D5C08C /* Permission.swift */,
 				8CDCCC4C2A97F08300D5C08C /* Model */,
 				8CDCCC472A97E6A900D5C08C /* Views */,
+				8CDCCC582A98158600D5C08C /* ViewModel */,
 				8CDCCC532A9801FC00D5C08C /* Helpers */,
 				8C8BECE62A97D681008E6BB7 /* Info.plist */,
 				8C8BECE92A97D8BC008E6BB7 /* MovieContainer.xcdatamodeld */,
@@ -99,6 +102,7 @@
 		8CDCCC472A97E6A900D5C08C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8C8BECCE2A97CC3B008E6BB7 /* ContentView.swift */,
 				8CDCCC482A97E6CC00D5C08C /* ScannerView.swift */,
 				8CDCCC4A2A97ED4000D5C08C /* CameraView.swift */,
 				8CDCCC5B2A9815C300D5C08C /* MovieInfoView.swift */,
@@ -110,7 +114,6 @@
 		8CDCCC4C2A97F08300D5C08C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8CDCCC4D2A97F0A900D5C08C /* Permission.swift */,
 				8CDCCC512A97F65E00D5C08C /* QRScannerDelegate.swift */,
 				8CDCCC5D2A9815FC00D5C08C /* MovieModel.swift */,
 			);
@@ -210,6 +213,7 @@
 				8CDCCC4B2A97ED4000D5C08C /* CameraView.swift in Sources */,
 				8CDCCC522A97F65E00D5C08C /* QRScannerDelegate.swift in Sources */,
 				8C8BECEB2A97D8BC008E6BB7 /* MovieContainer.xcdatamodeld in Sources */,
+				8CDCCC862A98327100D5C08C /* Persistence.swift in Sources */,
 				8CDCCC5C2A9815C300D5C08C /* MovieInfoView.swift in Sources */,
 				8CDCCC642A98204600D5C08C /* JSONViewModel.swift in Sources */,
 				8CDCCC552A98021900D5C08C /* Extensions+View.swift in Sources */,

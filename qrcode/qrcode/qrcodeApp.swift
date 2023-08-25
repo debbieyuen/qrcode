@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct qrcodeApp: App {
-    
+//    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
-//            MovieDataView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

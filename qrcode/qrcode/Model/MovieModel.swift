@@ -12,3 +12,4 @@ struct MovieModel: Decodable, Hashable {
     var playTime: String
     var city: String
 }
+
